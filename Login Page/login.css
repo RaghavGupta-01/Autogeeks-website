@@ -1,0 +1,35 @@
+.ip{
+    height: 40px;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: azure;
+}
+
+.label{
+    font-family: Consolas, monaco, monospace;
+    font-size: 30px;
+}
+div{
+    border: 1px solid black;
+    width: fit-content;
+    background-color: beige;
+    margin: auto;
+}
+
+h1{
+    font-family: Georgia, Times, Times New Roman, serif;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    margin-top: 0px;
+}
+button{
+    background-color: azure;
+    margin: auto;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    border: none;
+}

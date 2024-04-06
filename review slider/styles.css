@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+.box {
+    display: inline-flex;
+}
+
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    width: 97.5%; /* Displaying 3 slides at a time */
+    transform: translateX(0.5); /* Start at first set of slides */
+}
+
+.slide {
+    flex: 0 0 calc(100% / 3);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}
+
+.review {
+    text-align: center;
+}
+
+.review h2 {
+    margin-top: 0;
+}
+
+.review p {
+    margin-bottom: 0;
+}
+
+.slider-arrows {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.left::before {
+    content: '←';
+}
+
+.right::before {
+    content: '→';
+}

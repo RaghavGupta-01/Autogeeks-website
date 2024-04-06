@@ -1,0 +1,50 @@
+nav {
+    height: 70px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+div {
+    flex:content;
+}
+
+#search {
+    background-color: azure;
+    height: 40px;
+    width: 300px;
+}
+#location{
+    background-color: azure;
+    width: 200px;
+    margin-right: 5px;
+}
+.pos {
+    /* position: absolute;
+    right:0; */
+    /* background-color: azure; */
+    height: 40px; 
+     width: 300px;
+    /* margin: 2px 5px 4px 500px; */
+    /* padding:10px; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+#login{
+    height: 40px;
+    padding: 5px;
+    margin-right:5px;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img {
+    height: 100px;
+    width: 40px;
+}

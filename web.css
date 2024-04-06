@@ -1,0 +1,183 @@
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 1400px;
+    height: 500px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right :0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    padding: 20px;
+    margin: 30px;
+}
+
+.buy-sell {
+    display: inline-block;
+    /* display: flexbox; */
+    align-items: center;
+    justify-content: center;
+}
+
+.inline {
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+/* .container{
+    display: block;
+    justify-content: center;
+    
+} */
+.more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 30px 30px;
+
+}
+
+#buy {
+
+    border: black 3px solid;
+    height: 330px;
+    border-radius: 10px;
+
+}
+
+#buy:hover {
+    transform: scale(1.05);
+}
+
+#buyimg {
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px 0px gray;
+}
+
+#buybtn {
+    border: none;
+    padding: 16px 40px 16px 40px;
+    color: white;
+    background: #ff2b2b;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    border-radius: 20px;
+    box-shadow: 0px 6px 0px 0px #a72b41, 0px 0px 6px 0px rgba(120, 120, 120, 0.4);
+    transition: all 0.05s;
+}
+
+#buybtn:focus {
+    background: #ff2b2b;
+    box-shadow: 0px 6px 0px 0px #a72b41, 0px 0px 5px 0px rgba(83, 2, 2, 0.4);
+}
+
+#buybtn:active {
+    box-shadow: 0px 1px 0px 0px #a72b41;
+    top: 5px;
+}
+
+#sell {
+
+    border: black 3px solid;
+    height: 330px;
+    border-radius: 10px;
+}
+
+#sell:hover {
+    transform: scale(1.05);
+}
+
+#sellimg {
+    border-radius: 6px;
+
+    box-shadow: 0px 5px 15px 0px gray;
+}
+
+#sellbtn {
+    border: none;
+    padding: 16px 40px 16px 40px;
+    color: white;
+    background: #ff2b2b;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    border-radius: 20px;
+    box-shadow: 0px 6px 0px 0px #a72b41, 0px 0px 6px 0px rgba(120, 120, 120, 0.4);
+    transition: all 0.05s;
+}
+
+#sellbtn:focus {
+    background: #ff2b2b;
+    box-shadow: 0px 6px 0px 0px #a72b41, 0px 0px 5px 0px rgba(83, 2, 2, 0.4);
+}
+
+#sellbtn:active {
+    box-shadow: 0px 1px 0px 0px #a72b41;
+    top: 5px;
+}
+
+
+#more {
+    padding: 40px 50px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+    cursor: pointer;
+    /* position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    transition: transform 0.05s linear 0s;
+    backface-visibility: hidden; */
+}
+
+#more:hover {
+    transform: scale(1.05);
+    transition: all 0.05s;
+    background-color: #f71e1ecc;
+    color: white;
+    border-radius: 15px;
+    /* position: absolute;
+   transform: perspective(600px) rotateY(180deg);
+   background: #262626;
+   color: #fff; */
+}
+
+/* .back{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background: #262626;
+    color: #fff;
+} */

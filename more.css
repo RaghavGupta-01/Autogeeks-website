@@ -1,0 +1,144 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    /* justify-content:space-between; */
+    padding: 20px;
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 5px;
+    background-color: azure;
+    /* border: 2px solid rebeccapurple; */
+    height: 400px;
+    /* color: azure; */
+}
+
+.img1{
+    height: 200px;
+    width: 260px;
+   
+}
+#faqs{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.abc:hover{
+    transform: translate3d(-2px,-2px,-3px);
+}
+#maindropdownn{
+    display: flex;
+    flex-direction: row;
+  
+}
+ 
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 200px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+    flex-direction: row;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(115, 9, 82);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover
+   {
+    background-color: #c32f11;
+    width: 168px;
+  
+   }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+ #mainreviews{
+  display: flex;
+  flex-direction: row;
+  
+ }
+ #reviews1{
+  width: 280px;
+ }
+ 
+  .rating1{
+      font-size: 50px;
+      color: green;
+  }
+  .rating2{
+    font-size: 38px;
+    color: rgb(255, 0, 200);
+    padding: 5px;
+  }
+  .img2{
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+  }
+.reviews2{
+  width: 200px;
+  margin: 50px;
+  font-style: oblique;
+  font-size: large;
+}
+.insta{
+  width: 30px;
+  margin-left: 48px;
+}
+#last{
+ 
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.lastimg{
+
+  height: 80%;
+  margin-left: 160px;
+  margin-top: 60px;
+}
+#lasttext{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+#dash{
+  margin-top: 175px;
+}
+#selling{
+  height: 10px;
+  margin-left: 40px;
+}
